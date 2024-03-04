@@ -1,0 +1,151 @@
+파이썬의 연산
+
+()
+
++
+
+-
+
+*
+
+/
+
+** - 제곱
+
+// - 정수로 나누었을때의 몫
+
+% - 정수로 나누었을때의 나머지
+
+
+
+
+
+거북이 그래픽 명령어
+
+forward / fd
+
+backward / back
+
+left / lt
+
+right / rt
+
+circle
+
+down / pendown - 잉크 묻힌 꼬리를 내립니다
+
+up / penup - 잉크 묻힌 꼬리를 올립니다
+
+shape("모양") - 거북이 모양 변경
+
+speed(속도) - 1~10, 0 은 최고속도
+
+pensize(굵기) / width
+
+color("색 이름")
+
+bgcolor("색 이름")
+
+fillcolor("색 이름")
+
+begin_fill()
+
+end_fill()
+
+showturtle() / st()
+
+hideturtle() / ht()
+
+clear()
+
+reset()
+
+
+
+
+
+==
+
+!=
+
+<
+
+>
+
+<=
+
+>=
+
+
+
+
+
+if :
+
+else :
+
+
+
+
+
+random
+
+random.randint
+
+
+
+
+
+pos() / position() - 현재 위치
+
+xcor() / ycor() - x,y 좌표
+
+goto(x,y) / setpos(x,y) - 특정 좌표로 보내기
+
+setx(x) / sety(y) - x,y 좌표만 지정
+
+distance(x,y) - 현 위치에서 특정 위치까지의 거리 구하기
+
+heading() - 현재 바라보는 각도
+
+towards(x,y) - 현재 위치에서 특정 위치까지 바라보는 각도 구하기
+
+home() - 위치와 방향을 처음 상태로 되돌리기
+
+seth(각도) / setheading(각도) - 거북이가 바라보는 방향을 변경
+
+onekeypress(함수, "키이름") - 키보드 누를때 함수 호출
+
+onescreenclick(함수) - 마우스 버튼 누를때 함수 호출
+
+listen() - 그래픽 창에 포커스
+
+onitimer(함수, 시간) - 일정 시간 지난 뒤 실행 함수 설정
+
+title("창 이름") - 그래픽 창의 이름 지정
+
+write("문자열") - 현재 거북이 위치에 문자 출력
+
+
+
+
+
+a in b
+
+len(a)
+
+a | b - 합집합
+
+a & b - 교집합
+
+a - b - 차집합
+
+a > b
+
+a < b
+
+
+
+
+
+math.sqrt - 제곱근, 루트
